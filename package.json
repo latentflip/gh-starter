@@ -13,6 +13,7 @@
     "jade": "^1.7.0"
   },
   "scripts": {
+    "build": "make build",
     "start": "building-static-server -p 3001"
   },
   "repository": {
