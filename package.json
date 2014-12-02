@@ -14,7 +14,8 @@
   },
   "scripts": {
     "build": "make build",
-    "start": "building-static-server -p 3001"
+    "start": "building-static-server -p 3001",
+    "postinstall": "make -B build"
   },
   "repository": {
     "type": "git",
